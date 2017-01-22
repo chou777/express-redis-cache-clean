@@ -1,0 +1,22 @@
+{
+  "name": "express-route-cache-clean",
+  "version": "1.0.0",
+  "description": "Express route cache clean tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ./;"
+  },
+  "author": "chou777",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "express-redis-cache": "^0.4.2",
+    "redis": "^2.6.2",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0"
+  }
+}
